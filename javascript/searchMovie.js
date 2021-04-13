@@ -1,6 +1,6 @@
 function searchMovie(){
     const request = axios.get('https://mock-api.bootcamp.respondeai.com.br/api/v2/moviefinder/filmes');
-    request.then(addMovies);x
+    request.then(addMovies);
 }
 function addMovies(response){
     const movieData = response.data;
